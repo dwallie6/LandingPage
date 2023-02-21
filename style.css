@@ -7,12 +7,13 @@ body {
     display: flex;
     background-color: #1f2937;
     margin: 0;
-    padding: 8px 56px;
+    padding: 16px 110px;
 }
 
 .logo {
     font-size: 24px;
     color: white;
+    font-weight: bold;
 }
 
 a {
@@ -26,5 +27,11 @@ ul {
     font-size: 18px;
     margin: 0;
     padding: 0;
-    gap: 16px;
+    gap: 24px;
+}
+
+.right {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
 }
