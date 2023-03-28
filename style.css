@@ -43,12 +43,10 @@ ul {
 .hero {
     background-color: #1f2937;
     display: flex;
-    flex: 1;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0;
-    padding: 16px 110px;
-    align-items: flex-start;
+    padding: 50px 110px;
     justify-content: center;
 }
 
@@ -57,11 +55,14 @@ h1 {
     font-weight: bolder;
     color: #f9faf8;
     margin-bottom: auto;
+    flex-wrap: wrap;
+    width: 60%;
 }
 
 h2 {
     font-size: 18px;
     color: #e5e7eb;
+    flex-wrap: wrap;
 }
 
 button {
@@ -73,8 +74,40 @@ button {
     border-radius: 8px;
 }
 
-img {
-    width: 50%;
+.cheetah {
+    width: 75%;
     height: auto;
 }
 
+.words {
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.content {
+    flex-grow: 1;
+    justify-content: flex-end;
+    width: 50%;
+    height: auto
+}
+
+/* -----------------------------------------------*/
+
+h3 {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    justify-content: center;
+}
+
+.cats {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ocelot, .leopard, .jaguar, .cougar {
+    width: 10%;
+    height: auto;
+}
